@@ -1,89 +1,47 @@
-*{
-	
-  font-family: "Roboto";
-}
 body{
-	background-image: url("images/pattern-background-mobile.svg") ;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: #e0e8ff;
-}
-.card{
-	background-color: white;
-	border-radius: 1.5em;
-	width: 25em;
-	height: 80%;
-	margin: 50px 350px;
-	background-image: url("images/illustration-hero.svg");
-	background-repeat: no-repeat;
-	background-size: 100% 230px;
-
-}
-.text{
-	padding-top: 230px;
-	padding-left: 20px;
-}
-.order{
-	color: gray;
-	text-align: center;
-	padding: 0px 20px;
-}
-h2{
-	text-align: center;
-}
-.botton1{
-	background-color: #382ae1 ;
-	border: none;
-	border-radius: 1em;
-	color: white;
-	margin: 20px 90px;
-	height: 50px;
-	width: 65%;
-
-    box-shadow: 0px 8px 22px 3px rgba(0,0,0,53%);
-    
-}
-.botton1:hover{
-	background-color: #746cf3;
-}
-.Cancel{
-	color: gray;
-	text-align: center;
-	font-weight: 500;
-	padding: 10px 30px;
-}
-.Cancel:hover{
-	color: black;
-}
-.annual{
-	background-color: #f8f9fe;
-	border-radius: 1em;
-	margin: 0px 30px;
-
-
-
-}
-.music{
-	padding: 0px 20px;
-}
-a{
-	color: #4634d4;
-
-}
-a:hover{
-	text-decoration: none;
-	color: #746cf3;
-}
-
-.annualitem{
-	display: inline-block;
-	margin-left: 25px;
-
-}
-.price{
-	color: gray;
 	
 }
-#change{
-text-align:justify;
+header{
+	background-color: white;
+	color: red;
+}
+footer{
+	background-color: white;
+}
+form{
+	
+	margin-top: 20px;
+	
+	padding-left: 35%;
+	color: white ;
+	background-color: #ac8fc5;
+
+
+}
+input{
+	margin: 10px 7.5px;
+	
+
+
+}
+.labels{
+	 display: inline-block;
+     width:100px;
+     text-align: right;
+}
+.submit{
+	color: white;
+	background-color: black;
+	margin-left: 15em;
+
+
+}
+.aligning{
+	    text-align: center;
+		margin-left: 20px;
+
+}
+.both{
+	display: flex;
+	flex-direction: row;
 }
