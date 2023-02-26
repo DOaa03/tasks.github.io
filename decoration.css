@@ -1,47 +1,101 @@
+*{
+	
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
 body{
-	
+	background-image: url("images/pattern-background-mobile.svg") ;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: top;
+	background-color: #e0e8ff;
+	overflow-x: hidden;
 }
-header{
+.card{
 	background-color: white;
-	color: red;
-}
-footer{
-	background-color: white;
-}
-form{
-	
-	margin-top: 20px;
-	
-	padding-left: 35%;
-	color: white ;
-	background-color: #ac8fc5;
-
+	border-radius: 1.5em;
+	width: 25em;
+	height: 80%;
+	margin: 50px 350px;
+	background-image: url("images/illustration-hero.svg");
+	background-repeat: no-repeat;
+	background-size: 100% 230px;
 
 }
-input{
-	margin: 10px 7.5px;
-	
-
-
+.text{
+	padding-top: 230px;
+	padding-left: 20px;
 }
-.labels{
-	 display: inline-block;
-     width:100px;
-     text-align: right;
+.order{
+	color: gray;
+	text-align: center;
+	padding: 0px 20px;
 }
-.submit{
+h2{
+	text-align: center;
+}
+.botton1{
+	background-color: #382ae1 ;
+	border: none;
+	border-radius: 1em;
 	color: white;
-	background-color: black;
-	margin-left: 15em;
+	margin: 20px 90px;
+	height: 50px;
+	width: 65%;
+
+    box-shadow: 0px 8px 22px 3px rgba(0,0,0,53%);
+    
+}
+.botton1:hover{
+	background-color: #746cf3;
+}
+.Cancel{
+	color: gray;
+	text-align: center;
+	font-weight: 500;
+	padding: 10px 30px;
+}
+.Cancel:hover{
+	color: black;
+}
+.annual{
+	background-color: #f8f9fe;
+	border-radius: 1em;
+	margin: 0px 30px;
+
 
 
 }
-.aligning{
-	    text-align: center;
-		margin-left: 20px;
+.music{
+	padding: 0px 20px;
+}
+a{
+	color: #4634d4;
 
 }
-.both{
-	display: flex;
-	flex-direction: row;
+a:hover{
+	text-decoration: none;
+	color: #746cf3;
+}
+
+.annualitem{
+	display: inline-block;
+	margin-left: 25px;
+
+}
+.price{
+	color: gray;
+	
+}
+#change{
+text-align:justify;
+}
+::-webkit-scrollbar-track{
+	background: linear-gradient(to right,#d6e1ff,#e4e9f9,#e0e8ff);
+}
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(#382ae2,#352ae0,#1e20cd, purple,violet,pink);
+	border-radius: 10px;
+}
+::-webkit-scrollbar{
+	width: 1em;
 }
